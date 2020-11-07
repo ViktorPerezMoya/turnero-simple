@@ -33,6 +33,6 @@ socket.on('estadoActual',function(data){
 function loadHtml(ultimos4){
     for(let i = 0; i < ultimos4.length; i++){
         lbls_ticket[i].text("Ticket "+ultimos4[i].numero);
-        lbls_escritorios[i].text("Ticket "+ultimos4[i].puesto);
+        lbls_escritorios[i].text("Escritorio "+ultimos4[i].puesto);
     }
 }
